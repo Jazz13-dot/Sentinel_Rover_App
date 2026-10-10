@@ -2,7 +2,7 @@
 
 A cutting-edge AI-powered laser sentinel rover system with real-time threat detection, automated alert dispatching, and tactical mobile interface.
 
-## 📱 Features
+## 📱 Features:
 
 ### Mobile App (Flutter)
 - **Real-time Dashboard**: Live monitoring of rover status and threats

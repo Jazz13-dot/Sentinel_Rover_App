@@ -1,0 +1,117 @@
+#include <stdio.h>
+int main()
+{
+    int Spiderman, Ironman, Hulk, Captainamerica;
+    printf("Enter the salary of Spiderman : ");
+    scanf("%d", &Spiderman);
+    printf("Enter the salary of Ironman : ");
+    scanf("%d", &Ironman);
+    printf("Enter the salary of Hulk : ");
+    scanf("%d", &Hulk);
+    printf("Enter the salary of Captainamerica : ");
+    scanf("%d", &Captainamerica);
+    printf("The salary of Spiderman : %d\n", Spiderman);
+    printf("The salary of Ironman : %d\n", Ironman);
+    printf("The salary of Hulk : %d\n", Hulk);
+    printf("The salary of Captainamerica : %d\n", Captainamerica);
+    return 0;
+}
+
+
+
+
+#include <stdio.h>
+int main()
+{
+    int M1,M2,M3,M4;
+    printf("ENTER THE MARKS1 : ");
+    scanf("%d",&M1);
+    printf("ENTER THE MARKS2 : ");
+    scanf("%d",&M2);
+    printf("ENTER THE MARKS3 : ");
+    scanf("%d",&M3);
+    printf("ENTER THE MARKS4 : ");
+    scanf("%d",&M4);
+    printf("Total : %d",M1+M2+M3+M4);
+    printf("\nAvg : %.2f",(M1+M2+M3+M4)/4.0);
+    return 0;
+}    
+
+
+
+1.
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    scanf("%d %d",&a,&b);
+    int min = (a<b) ? a : b ;
+    printf("%d",min);
+
+    return 0;
+}
+
+
+
+2.
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    printf((a<0) ? "-ve" : "+ve");
+
+    return 0;
+}
+
+
+
+3.
+#include<stdio.h>
+int main()
+{
+    int n, sum = 0;
+    scanf("%d",&n);
+    sum = (n/10) + (n%10);
+    printf("%d",sum);
+    return 0;
+    
+}
+
+
+
+
+4.
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
+    if(a>b && a>c)
+    printf("%d",a);
+    else if(b>a && b>c)
+    printf("%d",b);
+    if(c>a && c>b)
+    printf("%d",c);
+    return 0;
+
+}
+
+
+
+5.
+#include<stdio.h>
+
+int main()
+{
+    int n, digit;
+    scanf("%d", &n);
+    digit = n % 10;
+    if(digit > 5)
+        printf("above 5");
+    else
+        printf("below 5");
+    return 0;
+}
